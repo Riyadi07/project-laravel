@@ -32,11 +32,12 @@
         }
     },
     "scripts": {
+        "vercel": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
-        ],
-        "post-update-cmd": [],
-        "post-root-package-install": []
+        ]
     },
     "extra": {
         "laravel": {
