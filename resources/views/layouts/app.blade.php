@@ -101,27 +101,34 @@
                 </div>
 
                 {{-- CONNECT --}}
-                <div>
-                    <h3 class="text-sm font-semibold tracking-widest text-white">CONNECT</h3>
-                    <p class="mt-5 max-w-sm text-sm leading-7 text-slate-400">
-                        Temukan saya melalui beberapa platform berikut untuk melihat aktivitas dan proyek yang saya kerjakan.
-                    </p>
-                    <div class="mt-5 flex items-center gap-3">
-                        {{-- GitHub --}}
-                        <a href="https://github.com/Riyadi07" target="_blank" rel="noreferrer" aria-label="GitHub" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-blue-500 hover:text-white">
-                            <i class="devicon-github-original text-lg"></i>
-                        </a>
-                        
-                        {{-- Instagram --}}
-                        <a href="https://instagram.com/riyadii0_" target="_blank" rel="noreferrer" aria-label="Instagram" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-blue-500 hover:text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5">
-                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+<div>
+    <h3 class="text-sm font-semibold tracking-widest text-white">CONNECT</h3>
+    <p class="mt-5 max-w-sm text-sm leading-7 text-slate-400">
+        Temukan saya melalui beberapa platform berikut untuk melihat aktivitas dan proyek yang saya kerjakan.
+    </p>
+    <div class="mt-5 flex items-center gap-3">
+        {{-- GitHub --}}
+        <a href="https://github.com/Riyadi07" target="_blank" rel="noreferrer" aria-label="GitHub" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-blue-500 hover:text-white">
+            <i class="devicon-github-original text-lg"></i>
+        </a>
+        
+        {{-- Instagram --}}
+        <a href="https://instagram.com/riyadii0_" target="_blank" rel="noreferrer" aria-label="Instagram" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-blue-500 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+            </svg>
+        </a>
+
+       {{-- Menggunakan Username atau ID Facebook --}}
+<a href="https://www.facebook.com/riyadi.putraragel" target="_blank" rel="noreferrer" aria-label="Facebook" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-400 transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-blue-500 hover:text-white">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+    </svg>
+</a>
+    </div>
+</div>
             </div>
 
             {{-- COPYRIGHT --}}
